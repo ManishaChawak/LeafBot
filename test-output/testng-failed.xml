@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]" verbose="2">
+  <test thread-count="5" name="Test Case for learning(failed)" verbose="2">
+    <classes>
+      <class name="com.monkBot.testcases.EditContactInfo">
+        <methods>
+          <include name="editContactInfoTestCase" invocation-numbers="0"/>
+          <include name="stopReport"/>
+          <include name="afterMethod"/>
+          <include name="report"/>
+          <include name="setvalues"/>
+          <include name="startReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.monkBot.testcases.EditContactInfo -->
+    </classes>
+  </test> <!-- Test Case for learning(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
